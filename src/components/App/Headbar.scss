@@ -1,0 +1,20 @@
+@import "./App.scss";
+
+.headbar {
+  background-color: #000000 !important;
+  height: $fixed-headbar-height !important;
+
+  .toolbar {
+    height: $fixed-headbar-height !important;
+    display: flex;
+    justify-content: center;
+
+    .logoHeadbar {
+      font-family: 'Roboto', sans-serif;
+      font-weight: 300;
+      font-size: x-large;
+      margin-left: 1em;
+      margin-right: 1em;
+    }
+  }
+}
