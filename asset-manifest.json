@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/material-color-swatch/static/css/main.b7fd03a5.chunk.css",
+    "main.js": "/material-color-swatch/static/js/main.b4abc1d0.chunk.js",
+    "main.js.map": "/material-color-swatch/static/js/main.b4abc1d0.chunk.js.map",
+    "runtime-main.js": "/material-color-swatch/static/js/runtime-main.96c60a6d.js",
+    "runtime-main.js.map": "/material-color-swatch/static/js/runtime-main.96c60a6d.js.map",
+    "static/js/2.1ca98da6.chunk.js": "/material-color-swatch/static/js/2.1ca98da6.chunk.js",
+    "static/js/2.1ca98da6.chunk.js.map": "/material-color-swatch/static/js/2.1ca98da6.chunk.js.map",
+    "index.html": "/material-color-swatch/index.html",
+    "precache-manifest.386d0f0793c8612462c2bce747e3daff.js": "/material-color-swatch/precache-manifest.386d0f0793c8612462c2bce747e3daff.js",
+    "service-worker.js": "/material-color-swatch/service-worker.js",
+    "static/css/main.b7fd03a5.chunk.css.map": "/material-color-swatch/static/css/main.b7fd03a5.chunk.css.map",
+    "static/js/2.1ca98da6.chunk.js.LICENSE.txt": "/material-color-swatch/static/js/2.1ca98da6.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.96c60a6d.js",
+    "static/js/2.1ca98da6.chunk.js",
+    "static/css/main.b7fd03a5.chunk.css",
+    "static/js/main.b4abc1d0.chunk.js"
+  ]
+}
