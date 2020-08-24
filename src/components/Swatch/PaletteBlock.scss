@@ -1,8 +1,6 @@
 $palette-block-height: 1.2em;
 
 .palette-block-component {
-  border-bottom-color: white;
-
   .value-text-container {
     height: $palette-block-height;
     display: flex;
@@ -20,27 +18,17 @@ $palette-block-height: 1.2em;
     width: 30em;
   }
 
-  .hex-text-container {
-    height: $palette-block-height;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    
-    .hex-text-button {
-      .hash-text {
-        margin-right: 0.2em;
-      }
-      
-      .hex-text {
-        font-family: 'Roboto', sans-serif;
-        font-weight: 300;
-      }
+  .hex-text-container,
+  .rbg-text-container {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
 
-      .rgb-text {
-        font-family: 'Roboto', sans-serif;
-        text-transform: lowercase;
-        font-weight: 300;
-      }
+    .rgb-text {
+      text-transform: lowercase;
     }
+  }
+
+  .MuiTableCell-root {
+    border-bottom: none;
   }
 }

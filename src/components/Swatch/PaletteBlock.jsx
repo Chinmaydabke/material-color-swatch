@@ -65,26 +65,22 @@ const PaletteBlock = ({ item }) => {
         <TableCell className="palette-block" style={{ backgroundColor: item.hex }}>
         </TableCell>
         
-        <TableCell>
-          <div className="hex-text-container">
-            <Button
-              className="hex-text-button"
-              onClick={copyHexToClipboard}
-            >
-              <Typography className="hash-text">#</Typography>
-              <Typography className="hex-text">{item.hex.slice(1)}</Typography>
-            </Button>
-          </div>
+        <TableCell className="hex-text-container">
+          <Button
+            className="hex-text-button"
+            onClick={copyHexToClipboard}
+          >
+            <Typography className="hash-text">#</Typography>
+            <Typography className="hex-text">{item.hex.slice(1)}</Typography>
+          </Button>
         </TableCell>
-        <TableCell>
-          <div className="hex-text-container">
-            <Button
-              className="hex-text-button"
-              onClick={copyRGBToClipboard}
-            >
-              <Typography className="rgb-text">{rgbString}</Typography>
-            </Button>
-          </div>
+        <TableCell className="rbg-text-container">
+          <Button
+            className="hex-text-button"
+            onClick={copyRGBToClipboard}
+          >
+            <Typography className="rgb-text">{rgbString}</Typography>
+          </Button>
         </TableCell>
       </TableRow>
       <Snackbar
