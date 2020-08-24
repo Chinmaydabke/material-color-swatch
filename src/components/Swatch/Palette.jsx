@@ -1,4 +1,5 @@
 import React from 'react';
+import { Table, TableBody } from "@material-ui/core";
 import PaletteBlock from "./PaletteBlock";
 import './Palette.scss';
 
@@ -49,13 +50,15 @@ const Palette = ({ hex }) => {
   return (
     <React.Fragment>
       <div className="palette-component">
-        {pallete.map(item => {
-          return (
-            <div key={item.value+item.hex}>
-              <PaletteBlock item={item} />
-            </div>
-          )
-        })}
+        <Table>
+          <TableBody>
+            {pallete.map(item => {
+              return (
+                <PaletteBlock item={item} key={item.value+item.hex} />
+              )
+            })}
+          </TableBody>
+        </Table>
       </div>
     </React.Fragment>
   );

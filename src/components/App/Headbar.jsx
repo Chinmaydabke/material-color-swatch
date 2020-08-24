@@ -2,17 +2,21 @@ import React from 'react';
 import {
   AppBar, Toolbar, Typography, Button
 } from "@material-ui/core";
-import BrushIcon from '@material-ui/icons/Brush';
+import PaletteIcon from '@material-ui/icons/Palette';
 import CodeIcon from '@material-ui/icons/Code';
 import './Headbar.scss';
 
 const Headbar = () => {
+  const goToPortfolio = () => {
+    window.open("https://chinmaydabke.com", "_blank");
+  }
+
   return (
     <React.Fragment>
       <AppBar className="headbar" position="fixed" elevation={0}>
         <Toolbar className="toolbar">
           <div className="logo-area">
-            <BrushIcon className="logoIcon" />
+            <PaletteIcon className="logoIcon" />
             <Typography className="logoHeadbar">
               Material Color Swatch
             </Typography>
@@ -21,7 +25,7 @@ const Headbar = () => {
             <Button
               size="large"
               className="button"
-              variant="outlined"
+              onClick={() => goToPortfolio()}
               startIcon={<CodeIcon />}
             >
               <span className="button-text">by </span>

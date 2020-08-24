@@ -1,7 +1,7 @@
-$palette-block-height: 3em;
+$palette-block-height: 1.2em;
 
 .palette-block-component {
-  display: flex;
+  border-bottom-color: white;
 
   .value-text-container {
     height: $palette-block-height;
@@ -11,13 +11,12 @@ $palette-block-height: 3em;
 
     .value-text {
       width: 3em;
+      font-weight: 600;
     }
   }
 
   .palette-block {
     height: $palette-block-height;
-    margin-left: 0.5em;
-    margin-right: 1em;
     width: 30em;
   }
 
@@ -34,6 +33,12 @@ $palette-block-height: 3em;
       
       .hex-text {
         font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+      }
+
+      .rgb-text {
+        font-family: 'Roboto', sans-serif;
+        text-transform: lowercase;
         font-weight: 300;
       }
     }
