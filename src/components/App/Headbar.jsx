@@ -17,7 +17,7 @@ const Headbar = () => {
         <Toolbar className="toolbar">
           <div className="logo-area">
             <PaletteIcon className="logoIcon" />
-            <Typography className="logoHeadbar">
+            <Typography className="logoText">
               Material Color Swatch
             </Typography>
           </div>
