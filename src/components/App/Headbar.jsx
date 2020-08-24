@@ -18,7 +18,12 @@ const Headbar = () => {
             </Typography>
           </div>
           <div>
-            <Button size="large" className="button" startIcon={<CodeIcon />}>
+            <Button
+              size="large"
+              className="button"
+              variant="outlined"
+              startIcon={<CodeIcon />}
+            >
               <span className="button-text">by </span>
               <span className="button-text-author">CD</span>
             </Button>

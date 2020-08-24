@@ -24,18 +24,19 @@
 
     .button {
       color: white;
+      border-color: grey;
 
       .button-text {
         font-family: 'Roboto', sans-serif;
         font-weight: 300;
-        font-size: 1.4em;
+        font-size: 1.2em;
         text-transform: lowercase !important;
       }
 
       .button-text-author {
         font-family: 'DM Serif Display', serif;
         margin-left: 0.3em;
-        font-size: 1.4em;
+        font-size: 1.2em;
       }
     }
   }

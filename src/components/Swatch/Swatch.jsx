@@ -1,4 +1,5 @@
 import React from 'react';
+import Palette from "./Palette";
 import './Swatch.scss';
 
 const Swatch = ({ hex }) => {
@@ -6,18 +7,18 @@ const Swatch = ({ hex }) => {
   let render;
 
   if(hex.length < 1) {
-    render = <p>Type to search ...</p>;
+    render = <p></p>;
   } else {
     if(regex.test(hex)) {
-      render = <p>{hex} success</p>;
+      render = <Palette hex={hex} />;
     } else {
-      render = <p>{hex} fail</p>;
+      render = <p>Invalid input</p>;
     }
   }
 
   return (
     <React.Fragment>
-      <div>
+      <div className="swatch-component">
         {render}
       </div>
     </React.Fragment>
