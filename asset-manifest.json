@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/material-color-swatch/static/css/main.d8921759.chunk.css",
-    "main.js": "/material-color-swatch/static/js/main.b9e7784f.chunk.js",
-    "main.js.map": "/material-color-swatch/static/js/main.b9e7784f.chunk.js.map",
+    "main.css": "/material-color-swatch/static/css/main.c02c9c8e.chunk.css",
+    "main.js": "/material-color-swatch/static/js/main.2aefb670.chunk.js",
+    "main.js.map": "/material-color-swatch/static/js/main.2aefb670.chunk.js.map",
     "runtime-main.js": "/material-color-swatch/static/js/runtime-main.96c60a6d.js",
     "runtime-main.js.map": "/material-color-swatch/static/js/runtime-main.96c60a6d.js.map",
     "static/js/2.bf93ff75.chunk.js": "/material-color-swatch/static/js/2.bf93ff75.chunk.js",
     "static/js/2.bf93ff75.chunk.js.map": "/material-color-swatch/static/js/2.bf93ff75.chunk.js.map",
     "index.html": "/material-color-swatch/index.html",
-    "precache-manifest.ea23989f1a909bc5aa65bdf1ec79d2a4.js": "/material-color-swatch/precache-manifest.ea23989f1a909bc5aa65bdf1ec79d2a4.js",
+    "precache-manifest.fb2ccadaf030ce09ce1cea4411bf8af0.js": "/material-color-swatch/precache-manifest.fb2ccadaf030ce09ce1cea4411bf8af0.js",
     "service-worker.js": "/material-color-swatch/service-worker.js",
-    "static/css/main.d8921759.chunk.css.map": "/material-color-swatch/static/css/main.d8921759.chunk.css.map",
+    "static/css/main.c02c9c8e.chunk.css.map": "/material-color-swatch/static/css/main.c02c9c8e.chunk.css.map",
     "static/js/2.bf93ff75.chunk.js.LICENSE.txt": "/material-color-swatch/static/js/2.bf93ff75.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.96c60a6d.js",
     "static/js/2.bf93ff75.chunk.js",
-    "static/css/main.d8921759.chunk.css",
-    "static/js/main.b9e7784f.chunk.js"
+    "static/css/main.c02c9c8e.chunk.css",
+    "static/js/main.2aefb670.chunk.js"
   ]
 }
