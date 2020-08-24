@@ -1,0 +1,41 @@
+$palette-block-height: 3em;
+
+.palette-block-component {
+  display: flex;
+
+  .value-text-container {
+    height: $palette-block-height;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .value-text {
+      width: 3em;
+    }
+  }
+
+  .palette-block {
+    height: $palette-block-height;
+    margin-left: 0.5em;
+    margin-right: 1em;
+    width: 30em;
+  }
+
+  .hex-text-container {
+    height: $palette-block-height;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    .hex-text-button {
+      .hash-text {
+        margin-right: 0.2em;
+      }
+      
+      .hex-text {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+      }
+    }
+  }
+}

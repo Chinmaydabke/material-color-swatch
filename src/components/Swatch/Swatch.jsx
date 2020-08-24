@@ -9,10 +9,10 @@ const Swatch = ({ hex }) => {
   if(hex.length < 1) {
     render = <p></p>;
   } else {
-    if(regex.test(hex)) {
+    if(regex.test(hex) && hex.length <= 6) {
       render = <Palette hex={hex} />;
     } else {
-      render = <p>Invalid input</p>;
+      render = <p>{hex} is not a valid value</p>;
     }
   }
 
