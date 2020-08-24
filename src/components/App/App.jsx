@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Headbar from "./Headbar";
 import Input from "../Input/Input";
+import Swatch from "../Swatch/Swatch";
 import './App.scss';
 
 const App = () => {
@@ -12,9 +13,7 @@ const App = () => {
         <Headbar />
         <div className="content-root">
           <Input inputCallback={setHex} />
-        </div>
-        <div>
-          {hex}
+          <Swatch hex={hex} />
         </div>
       </div>
     </React.Fragment>

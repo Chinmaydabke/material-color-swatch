@@ -3,18 +3,40 @@
 .headbar {
   background-color: #000000 !important;
   height: $fixed-headbar-height !important;
+  border-bottom: 0.1px #d4d4d4 solid;
 
   .toolbar {
     height: $fixed-headbar-height !important;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 
-    .logoHeadbar {
-      font-family: 'Roboto', sans-serif;
-      font-weight: 300;
-      font-size: x-large;
-      margin-left: 1em;
-      margin-right: 1em;
+    .logo-area {
+      display: flex;
+
+      .logoHeadbar {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        font-size: 1.4em;
+        margin-left: 1em;
+        margin-right: 1em;
+      }
+    }
+
+    .button {
+      color: white;
+
+      .button-text {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+        font-size: 1.4em;
+        text-transform: lowercase !important;
+      }
+
+      .button-text-author {
+        font-family: 'DM Serif Display', serif;
+        margin-left: 0.3em;
+        font-size: 1.4em;
+      }
     }
   }
 }
